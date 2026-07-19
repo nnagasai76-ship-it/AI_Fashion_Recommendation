@@ -1,42 +1,52 @@
 # AI Fashion Recommendation System
 
-## Project Description
-This project recommends fashion products similar to the selected product using AI and deep learning.
+An AI-powered fashion recommendation system that recommends visually similar fashion products using image-based features and machine learning techniques.
 
 ## Features
-- Fashion Recommendation
-- Image Similarity Search
-- Free Gift Recommendation
-- User-Friendly Interface
+
+- Fashion product image analysis
+- Image-based fashion recommendation
+- Visual similarity search
+- Feature extraction from product images
+- Similar product retrieval
+- Fashion product metadata handling
+
+## Dataset
+
+This project uses the Myntra fashion product dataset.
+
+The complete image dataset is not included in this repository because it contains thousands of images and is too large for GitHub.
+
+The required dataset should be downloaded separately and placed in the project directory.
+
+Expected structure:
+
+AI_Fashion_Recommendation/
+│
+├── images/
+├── myntradataset/
+│   └── styles.csv
+├── fashion_recommendation.ipynb
+├── requirements.txt
+├── README.md
+└── .gitignore
 
 ## Technologies Used
+
 - Python
-- TensorFlow
-- Pandas
+- Jupyter Notebook
 - NumPy
-- OpenCV
+- Pandas
 - Scikit-learn
-- Streamlit
+- OpenCV
+- Machine Learning
+- Image Processing
 
-## Project Screenshots
+## Installation
 
-### Dataset Preview
-![Dataset Preview](screenshots/01_dataset.png)
+Clone the repository:
 
-### Project Structure
-![Project Structure](screenshots/02_project_folder.png)
-
-### Original Product
-![original Product](screenshots/03_original_product.png)
-
-### Recommended Products
-![Recommended Products](screenshots/04_recommendations.png)
-
-### Free Gift Feature
-![Free Gift Feature](screenshots/05_free_gift.png)
-
-### Model Loaded Successfully
-![Model Loaded](screenshots/06_model_loaded.png)
-
+```bash
+git clone https://github.com/nnagasai76-ship-it/AI_Fashion_Recommendation.git
 ## Author
 Nagasai Nallamilli
