@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+images/
+feature_list.pkl
+image_files.pkl
